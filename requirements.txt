@@ -1,0 +1,10 @@
+pandas
+boto3
+azure-identity
+azure-mgmt-costmanagement
+google-cloud-bigquery
+fastapi
+uvicorn
+scikit-learn
+prophet
+pydantic 
