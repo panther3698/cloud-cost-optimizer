@@ -1,0 +1,22 @@
+{
+  "projectedSpendUSD": 6464.28,
+  "forecastedTrend": [
+    { "date": "2024-12-25", "predictedCost": 210.12 },
+    { "date": "2024-12-26", "predictedCost": 215.34 }
+  ],
+  "anomalyCount": 2,
+  "anomalies": [
+    { "date": "2024-12-20", "cost": 350, "isAnomaly": true, "deltaPercent": 42.1 },
+    { "date": "2024-12-22", "cost": 400, "isAnomaly": true }
+  ],
+  "recommendations": [
+    { "text": "Shutdown unused VMs", "estimatedSavingsUSD": 1200, "persona": "FinOps", "actionable": true },
+    { "text": "Right-size SQL instances", "persona": "CloudOps", "actionable": false }
+  ],
+  "kpis": [
+    { "name": "Idle VM Ratio", "value": "12%", "category": "Efficiency", "persona": "FinOps" },
+    { "name": "Cost per Service", "value": 3200, "category": "Spend", "persona": "CIO" }
+  ],
+  "budgetDriftUSD": -300,
+  "budgetCompliancePercent": 94.6
+} 
